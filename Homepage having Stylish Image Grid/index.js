@@ -29,4 +29,4 @@ images.forEach((image,key)=>{
     imageContainer.appendChild(newChild)
 })
 
-document.getElementsByClassName('content-images')[0].setAttribute('style',`--margin-top : -${Math.max(...threeRandomNumbers) * marginCoeff - 15}px`)
+document.getElementsByClassName('content-images')[0].setAttribute('style',`--margin--top--content--images--container : -${Math.min(...threeRandomNumbers) * marginCoeff - 15}px`)
