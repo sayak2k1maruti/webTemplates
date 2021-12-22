@@ -49,7 +49,7 @@ h1,div,main,html,body{
     margin-bottom : var(--margin--bottom);
     border-radius: 10px;
     opacity: 0;
-    animation: animate-images 1s 5s ease-in forwards;
+    animation: animate-images 1s 2s ease-in forwards;
 }
 button{
     border: none;
